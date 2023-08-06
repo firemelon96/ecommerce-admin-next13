@@ -1,7 +1,8 @@
-import { BillboardClient } from '@/components/billboard-client';
-import { BillboardColumn } from '@/components/billboard-columns';
 import prismadb from '@/lib/prismadb';
 import React from 'react';
+
+import { BillboardClient } from '@/components/billboard/client';
+import { BillboardColumn } from '@/components/billboard/columns';
 import { format } from 'date-fns';
 
 const BillboardsPage = async ({ params }: { params: { storeId: string } }) => {

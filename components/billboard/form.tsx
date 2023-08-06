@@ -19,10 +19,10 @@ import {
   FormItem,
   FormLabel,
 } from '@/components/ui/form';
-import { Input } from './ui/input';
+import { Input } from '@/components/ui/input';
 import { toast } from 'react-hot-toast';
 import { AlertModal } from '@/components/modals/alert-model';
-import ImageUpload from './ui/image-upload';
+import ImageUpload from '@/components/ui/image-upload';
 
 const formSchema = z.object({
   label: z.string().min(1),
